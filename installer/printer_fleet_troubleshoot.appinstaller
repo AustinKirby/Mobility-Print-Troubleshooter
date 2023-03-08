@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <AppInstaller xmlns="http://schemas.microsoft.com/appx/appinstaller/2018"
+    Uri="C:\Users\Kirby\Documents\Projects\PrinterFleetTroubleshooter\printer_fleet_troubleshoot\installer/printer_fleet_troubleshoot.appinstaller" Version="1.0.1.0">
+    <MainPackage Name="com.flutter.printerfleettroubleshoot" Version="1.0.1.0"
+      Publisher="CN=PublisherName, O=Msix Testing..."
+      Uri="C:\Users\Kirby\Documents\Projects\PrinterFleetTroubleshooter\printer_fleet_troubleshoot\installer/versions/printer_fleet_troubleshoot_1.0.1.0.msix"
+      ProcessorArchitecture="x64" />
+    <UpdateSettings>
+      <OnLaunch HoursBetweenUpdateChecks="0" 
+        UpdateBlocksActivation="true" ShowPrompt="true" />
+        <AutomaticBackgroundTask />
+        </UpdateSettings>
+  </AppInstaller>
